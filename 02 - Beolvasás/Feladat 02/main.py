@@ -5,6 +5,7 @@ birthyear:int=None
 
 print("Kérem a nevét: ")
 name=str(input())
+
 print("Kérem a születési évét:")
 birthyear=int(input())
 

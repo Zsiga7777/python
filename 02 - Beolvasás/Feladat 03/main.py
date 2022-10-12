@@ -5,6 +5,7 @@ height:float=None
 
 print("Kérem a nevét:")
 name=str(input())
+
 print("Kérem a magasságát:")
 height=float(input())
 

@@ -1,12 +1,15 @@
 from os import system
 import sys
 
-name:str=None
+nev:str=None
 lenyomottBillentyu:str=None
 
-name=str(input("Kérem a nevét: "))
-lenyomottBillentyu=str(input("Nyomjon le egy billentyűt: "))
+print("Kérem a nevét: ", end='')
+name=str(input())
+
+print("Nyomjon le egy billentyűt: ",end='')
+lenyomottBillentyu=str(input())
 
 system('cls')
 
-print(F"{name}, ön a/az {lenyomottBillentyu}-t nyomta le!")
+print(F"{nev}, ön a/az {lenyomottBillentyu}-t nyomta le!")
