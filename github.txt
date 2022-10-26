@@ -1,9 +1,0 @@
-git clone "link"
-feltöltés:
-git status
-git add .
-git status
-git commit -m "valamni"
-git push
-letöltés:
-git pull
