@@ -7,7 +7,7 @@ szam=int(input())
 
 system('cls')
 
-if ( szam>10 and szam<20 or szam<-10 and szam>-20):
+if ( (szam>10 and szam<20) or (szam<-10 and szam>-20)):
     print("A szám a megadott határértékek(-10:-20 vagy 10:20 tartomány) közöztt van")
 
 else:

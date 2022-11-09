@@ -7,11 +7,13 @@ szam=int(input())
 
 system('cls')
 
-if ( szam%2 == 0 and szam%3 != 0 ):
-    print("BIZ")
-elif ( szam%2 != 0 and szam%3 ==0 ):
-    print("BAZ")
-elif ( szam%2 == 0 and szam%3 ==0 ):
+if ( szam%2 == 0 and szam%3 ==0 ):
     print("ZIZI")
+
+elif ( szam%2 == 0  ):
+    print("BIZ")
+elif ( szam%3 ==0 ):
+    print("BAZ")
+
 else:
     print("A szám nem osztható sem 2-vel, sem 3-al.")

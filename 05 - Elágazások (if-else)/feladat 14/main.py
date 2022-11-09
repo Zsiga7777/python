@@ -18,10 +18,10 @@ system('cls')
 if ( x%y ==0 and x%z == 0):
     print("Az x osztható z-vel és y-al is")
 
-elif ( x%y ==0 and x%z != 0):
+elif ( x%y ==0 ):
     print("Az x csak y-al osztható ")
 
-elif ( x%y != 0 and x%z == 0):
+elif ( x%z == 0):
     print("Az x csak z-vel osztható ")
 
 else:
