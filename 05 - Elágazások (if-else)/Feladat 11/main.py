@@ -12,10 +12,13 @@ if(szam%2 ==0):
 elif(szam%2 !=0):
     print("A szám páratlan")
 
-if (szam>=0):
+if (szam > 0):
     print("A szám pozitív")
-elif (szam<0):
+elif ( szam < 0 ):
     print("A szám negatív")
+elif ( szam == 0 ):
+    print("A szám nulla")
+
 
 if (szam%5==0):
     print("A szám osztható 5-tel")
