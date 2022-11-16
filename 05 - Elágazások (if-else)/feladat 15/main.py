@@ -19,6 +19,7 @@ eloetel:int=None
 foetel:int=None
 koret:int=None
 valasztottMenu:str=None
+ertekeles:str = None
 
 print("Előétel:\nZöldségleves, Húsleves, Gyümölcsleves")
 print("Kérek egy kiválasztott előételt:",end='')
@@ -71,4 +72,21 @@ else:
 
 
 if((eloetel >0 and eloetel <4) and (foetel >0 and foetel <6) and (koret >0 and koret<7)):
-    if()
+    if(zoldsegleves == True and spagetti == True and (gyumolcs == True or salata == True) and pizza!=True and rakottZoldseg !=True):
+        ertekeles ="Kiváló"
+        if(gyumolcs==True and salata == True):
+            valasztottMenu ="A választott menü: zöldségleves, spagetti, gyümölcs és saláta"
+        elif(gyumolcs==True):
+            valasztottMenu ="A választott menü: zöldségleves, spagetti, gyümölcs."
+        else:
+            valasztottMenu ="A választott menü: zöldségleves, spagetti, saláta"
+    elif(zoldsegleves == True and sultCsikemell == True and rizs == True and sultkrumpli!=True):
+        ertekeles ="fitnesz menü"
+        valasztottMenu ="A választott menü: zöldségleves, sült csirkemell, rizs"     
+    elif(husleves == True and sultcsirkecomb == True and salata == True and sultkrumpli==True and rakottZoldseg != True and pizza !=True):
+        ertekeles ="vasárnapi menü"
+        valasztottMenu ="A választott menü: húsleves, sült csirkcomb, saláta és sültkrumpli"     
+else:
+    print("nem teljes a rendelés")
+
+print(f"A választott menü értékelése:{ertekeles} \n A választott menü: {valasztottMenu}")
