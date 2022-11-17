@@ -85,7 +85,15 @@ if((eloetel >0 and eloetel <4) and (foetel >0 and foetel <6) and (koret >0 and k
         valasztottMenu ="A választott menü: zöldségleves, sült csirkemell, rizs"     
     elif(husleves == True and sultcsirkecomb == True and salata == True and sultkrumpli==True and rakottZoldseg != True and pizza !=True):
         ertekeles ="vasárnapi menü"
-        valasztottMenu ="A választott menü: húsleves, sült csirkcomb, saláta és sültkrumpli"     
+        valasztottMenu ="A választott menü: húsleves, sült csirkcomb, saláta és sültkrumpli"    
+    elif (spagetti == True or pizza==True and gyumolcs == True and kola==True  and rakottZoldseg !=True and paroltzoldseg!=True):
+        ertekeles ="napimenü"
+        if(pizza==True and spagetti == True):
+            valasztottMenu ="A választott menü: pizza, spagetti, gyümölcs és kóla"
+        elif(pizza==True):
+            valasztottMenu ="A választott menü: pizza, gyümölcs és kóla."
+        else:
+            valasztottMenu ="A választott menü: spagetti, gyümölcs és kóla"
 else:
     print("nem teljes a rendelés")
 
