@@ -15,11 +15,11 @@ kotes=str(input())
 system('cls')
 
 match kotes:
-    case "p":
+    case ["p","P"]:
         eredo=(ellenalas1 + ellenalas2) / (ellenalas1 * ellenalas2)
         print(f"{eredo}")
-    case "s":
-        osszeg=ellenalas1+ellenalas2
+    case ["s","S"]:
+        eredo=ellenalas1+ellenalas2
         print(f"{eredo}")
     case _:
         print("Nincs ilyen kötés típus")
