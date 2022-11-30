@@ -15,10 +15,10 @@ kotes=str(input())
 system('cls')
 
 match kotes:
-    case ["p","P"]:
-        eredo=(ellenalas1 + ellenalas2) / (ellenalas1 * ellenalas2)
+    case "p"|"P":
+        eredo=(ellenalas1 * ellenalas2) / (ellenalas1 + ellenalas2)
         print(f"{eredo}")
-    case ["s","S"]:
+    case "s"|"S":
         eredo=ellenalas1+ellenalas2
         print(f"{eredo}")
     case _:

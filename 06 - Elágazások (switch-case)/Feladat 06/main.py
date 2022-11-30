@@ -9,7 +9,7 @@ eredmeny:float=None
 print("Kérem az egyik oldal hosszát:",end='')
 egyikOldal=int(input())
 print("Kérem a másik oldal hosszát:",end='')
-ellenalas2=int(input())
+masikOldal=int(input())
 print("Kérem a kívánt tulajdonságot(t, a, k):",end='')
 kotes=str(input())
 
@@ -24,5 +24,5 @@ match kotes:
         print(f"{eredmeny} cm")
     case "a":
         eredmeny=math.sqrt((egyikOldal**2 + masikOldal**2))
-        print(f"{eredmeny}")
+        print(f"{eredmeny:2.2f}")
     case _:print("Valami nem stimmel")
