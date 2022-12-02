@@ -1,9 +1,9 @@
 from os import system
 
-nap:str=None
+nap:int=None
 
-print("Kérem a hét valahanyadik napját :",end='')
-nap=str(input())
+print("Kérem a hét valahanyadik napjának számát :",end='')
+nap=int(input().strip())
 
 system('cls')
 

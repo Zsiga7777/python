@@ -6,11 +6,11 @@ muveletiJel:str=None
 osszeg:float=None
 
 print("Kérek  egy számot:",end='')
-szam1=int(input())
+szam1=int(input().strip())
 print("Kérek  egy másik számot:",end='')
-szam2=int(input())
+szam2=int(input().strip())
 print("Kérek egy műveleti jelet:",end='')
-muveletiJel=str(input())
+muveletiJel=str(input()).strip()
 
 system('cls')
 

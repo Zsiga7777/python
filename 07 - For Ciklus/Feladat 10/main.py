@@ -6,15 +6,22 @@ eredmeny1:int=0
 eredmeny2:int=1
 
 print("Kérem a kezdő értéket:",end='')
-szam1=int(input())
+szam1=int(input().strip())
 
 print("Kérem a végső értéket:",end='')
-szam2=int(input())
+szam2=int(input().strip())
 
 system('cls')
-for i in range(szam1, szam2):
-    eredmeny1 = eredmeny1+i
-print(f"Az összeg {eredmeny1}")
-for i in range(szam1, szam2):
-    eredmeny2 = eredmeny2*i
-print(f"A szorzat {eredmeny2}")
+if(szam1<szam2):
+    for i in range(szam1, szam2+1):
+        eredmeny1 = eredmeny1+i
+        eredmeny2= eredmeny2*i
+    print(f"Az összeg {eredmeny1}")
+    print(f"A szorzat {eredmeny2}")
+
+else:
+    for i in range(szam2, szam1+1):
+        eredmeny1 = eredmeny1+i
+        eredmeny2= eredmeny2*i
+    print(f"Az összeg {eredmeny1}")
+    print(f"A szorzat {eredmeny2}")

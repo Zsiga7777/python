@@ -1,9 +1,9 @@
 from os import system
 
-ital:str=None
+ital:int=None
 
-print("Kérek az egyik ital számát:",end='')
-ital=str(input())
+print("Kérem az egyik ital számát:",end='')
+ital=int(input().strip())
 
 system('cls')
 

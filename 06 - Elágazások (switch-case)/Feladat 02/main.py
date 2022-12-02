@@ -3,7 +3,7 @@ from os import system
 honap:str=None
 
 print("Kérem az egyik hónap nevét :",end='')
-honap=str(input())
+honap=str(input()).strip().lower()
 
 system('cls')
 

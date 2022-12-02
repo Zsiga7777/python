@@ -7,11 +7,11 @@ tulajdonsag:str=None
 eredmeny:float=None
 
 print("Kérem az egyik oldal hosszát:",end='')
-egyikOldal=int(input())
+egyikOldal=int(input().strip())
 print("Kérem a másik oldal hosszát:",end='')
-masikOldal=int(input())
+masikOldal=int(input().strip())
 print("Kérem a kívánt tulajdonságot(t, a, k):",end='')
-kotes=str(input())
+kotes=str(input()).strip().lower()
 
 system('cls')
 
