@@ -16,20 +16,20 @@ print("Kérem a végső számot:", end='')
 vegso=int(input().strip())
 
 if (kezdo>vegso):
-    for szam in range(vegso, kezdo+1):
-        if(szam % 2 ==0):
-            parosOsszeG = parosOsszeG + szam
+    for i in range(vegso, kezdo+1, 1):
+        if(i % 2 ==0):
+            parosOsszeG = parosOsszeG + i
             darab1+=1
         else:
-            paratlanOsszeg = paratlanOsszeg + szam
+            paratlanOsszeg = paratlanOsszeg + i
             darab2+=1
 else:
-    for szam in range(kezdo, vegso+1):
-        if (szam %2 ==0):
-            parosOsszeG = parosOsszeG + szam
+    for i in range(kezdo, vegso+1, 1):
+        if (i %2 ==0):
+            parosOsszeG = parosOsszeG + i
             darab1+=1
         else:
-            paratlanOsszeg = paratlanOsszeg + szam
+            paratlanOsszeg = paratlanOsszeg + i
             darab2+=1
 
 atlag1 = parosOsszeG/darab1

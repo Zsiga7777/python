@@ -12,7 +12,7 @@ print("Kérem a végső számot:", end='')
 vegso=int(input().strip())
 
 if (kezdo<vegso):
-    for i in range(kezdo, vegso+1):
+    for i in range(kezdo, vegso+1, 1):
         if(darab % 2==0):
             osszeg = osszeg-i
             darab +=1
@@ -20,7 +20,7 @@ if (kezdo<vegso):
             osszeg = osszeg+ i
             darab +=1
 else:
-    for i in range(vegso, kezdo+1):
+    for i in range(vegso, kezdo+1 , 1):
         if(darab % 2==0):
             osszeg = osszeg-i
             darab +=1

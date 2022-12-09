@@ -12,12 +12,12 @@ print("Kérem a végső számot:", end='')
 vegso=int(input().strip())
 
 if (kezdo>vegso):
-    for szam in range(vegso, kezdo+1):
-            atlag = atlag + szam
+    for i in range(vegso, kezdo+1, 1):
+            atlag = atlag + i
             darab+=1
 else:
-    for szam in range(kezdo, vegso+1):
-            atlag = atlag + szam
+    for i in range(kezdo, vegso+1, 1):
+            atlag = atlag + i
             darab+=1
 
 atlag = atlag/darab
