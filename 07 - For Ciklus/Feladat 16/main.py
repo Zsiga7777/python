@@ -15,22 +15,14 @@ kezdo=int(input().strip())
 print("Kérem a végső számot:", end='')
 vegso=int(input().strip())
 
-if (kezdo>vegso):
-    for i in range(vegso, kezdo+1, 1):
-        if(i % 2 ==0):
-            parosOsszeG = parosOsszeG + i
-            darab1+=1
-        else:
-            paratlanOsszeg = paratlanOsszeg + i
-            darab2+=1
-else:
-    for i in range(kezdo, vegso+1, 1):
-        if (i %2 ==0):
-            parosOsszeG = parosOsszeG + i
-            darab1+=1
-        else:
-            paratlanOsszeg = paratlanOsszeg + i
-            darab2+=1
+
+for i in range(kezdo, vegso+1, 1):
+    if (i %2 ==0):
+        parosOsszeG = parosOsszeG + i
+        darab1+=1
+    else:
+        paratlanOsszeg = paratlanOsszeg + i
+        darab2+=1
 
 atlag1 = parosOsszeG/darab1
 atlag2 = paratlanOsszeg/darab2

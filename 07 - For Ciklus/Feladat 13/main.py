@@ -12,18 +12,11 @@ print("Kérem a végső értéket:",end='')
 vegso=int(input().strip())
 
 system('cls')
-if(kezdo<vegso):
-    for i in range(kezdo, vegso+1, 1):
-        if(i%2 ==0):
-            osszeg1 = osszeg1+i
-        else:
-            osszeg2 = osszeg2+i
-else:
-    for i in range(vegso, kezdo+1, 1):
-        if(i%2 ==0):
-            osszeg1 = osszeg1+i
-        else:
-            osszeg2 = osszeg2+i
+for i in range(kezdo, vegso+1, 1):
+    if(i%2 ==0):
+        osszeg1 = osszeg1+i
+    else:
+        osszeg2 = osszeg2+i
 if (osszeg1 > osszeg2):
     print(f"A páros számokoknak nagyobb az összege, {osszeg1}")
 elif(osszeg2 > osszeg1):

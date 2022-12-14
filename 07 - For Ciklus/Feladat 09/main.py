@@ -11,11 +11,8 @@ vegso=int(input().strip())
 
 system('cls')
 
-if(kezdo>vegso):
-    for i in range(kezdo, vegso+1, -1):
-        if(i %2 == 0):
-            print(i)
-else:
-    for i in range(vegso, kezdo+1, -1):
-         if(i %2 == 0):
-            print(i)
+if(kezdo%2):
+    kezdo -=1
+
+for i in range(kezdo, vegso-1, -2):
+    print(i)

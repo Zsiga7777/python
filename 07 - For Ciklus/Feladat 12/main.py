@@ -11,12 +11,10 @@ print("Kérem a végső értéket:",end='')
 vegso=int(input().strip())
 
 system('cls')
-if(kezdo<vegso):
-    for i in range(kezdo, vegso+1, 1):
-        if(i%3 ==0):
-            eredmeny1 = eredmeny1+1
-else:
-    for i in range(vegso, kezdo+1, 1):
-        if(i%3 ==0):
-            eredmeny1 = eredmeny1+1
+if(kezdo % 3 == 1):
+    kezdo +=2
+elif(kezdo % 3 == 2):
+    kezdo +=1
+for i in range(kezdo, vegso+1, 3):
+    eredmeny1 = eredmeny1+1
 print(f"A számok darabszáma:{eredmeny1}")
