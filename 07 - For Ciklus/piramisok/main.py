@@ -1,9 +1,9 @@
 max:int=None
-lista:list =[]
 
 print("Kérek egy számot:",end ='')
 max = int(input().strip())
 
-for i in range(1, max+1, 1):
-    lista.append(i) 
-    print("\t".join(map(str,lista)))
+for i in range(0, max+1, 1):
+    for j in range(1, i+1):
+        print(f"{j}  ", end='')
+    print()
