@@ -30,13 +30,12 @@ while (paratlanszam == None or paratlanszam % 2 ==0 or parosszam> paratlanszam):
 
 randszam = random.randrange(parosszam, paratlanszam)
 
-print(randszam)
 kozep= ((paratlanszam-parosszam)/2) + parosszam
 
 if(randszam < kozep):
-    print("A random szám a páros számhoz van közelebb")
+    print("A random szám a páratlan számtól van messzebb")
 else:
-    print("A páratlan számhoz van közelebb")
+    print("A páros számtól van messzebb")
 
 for i in range (parosszam, paratlanszam, 1):
     atlag = atlag+ i
