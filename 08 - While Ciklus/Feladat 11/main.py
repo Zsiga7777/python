@@ -33,9 +33,9 @@ randszam = random.randrange(parosszam, paratlanszam)
 kozep= ((paratlanszam-parosszam)/2) + parosszam
 
 if(randszam < kozep):
-    print("A random szám a páratlan számtól van messzebb")
+    print(f"A {randszam} random szám a páratlan számtól van messzebb ")
 else:
-    print("A páros számtól van messzebb")
+    print(f"A {randszam} random szám a páros számtól van messzebb")
 
 for i in range (parosszam, paratlanszam, 1):
     atlag = atlag+ i
