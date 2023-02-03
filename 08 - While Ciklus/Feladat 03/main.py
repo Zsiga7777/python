@@ -15,7 +15,7 @@ while (tip == None or randszam != tip ):
     szam_e = tipMasolat.isnumeric()
     if(szam_e == True):
         float(tip)
-    if(elet <= 0):
+    if(elet == 1):
         break
 
 if(tip == randszam):

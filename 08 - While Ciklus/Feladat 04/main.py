@@ -11,7 +11,7 @@ while (osszeg == None or osszeg<100):
     szam = input()
     szamMasolat = szam.replace(".", "").replace("-", "")
     szam_e = szamMasolat.isnumeric()
-    if(szam_e == True):
+    if(szam_e):
         szam = float(szam)
         osszeg = osszeg +szam
     db +=1

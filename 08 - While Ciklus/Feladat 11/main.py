@@ -6,11 +6,11 @@ paratlanszam:str=None
 paratlanszamMasolat:str=None
 atlag:float=0
 dbatlag:int=0
-darab:int=None
+darab:int=0
 randszam:float=0
 kozep:float=None
 
-while (parosszam == None or parosszam == None or parosszam % 2 != 0 or paratlanszam % 2 ==0 or parosszam> paratlanszam):
+while (parosszam == None or  parosszam % 2 != 0):
     print("Kérek egy páros számot:", end='')
     parosszam = input()
     parosszamMasolat = parosszam.replace(".", "").replace("-", "")
@@ -19,6 +19,7 @@ while (parosszam == None or parosszam == None or parosszam % 2 != 0 or paratlans
     else:
         parosszam = None
 
+while (paratlanszam == None or paratlanszam % 2 ==0 or parosszam> paratlanszam):
     print("Kérek egy páratlan számot:", end='')
     paratlanszam = input()
     paratlanszamMasolat = paratlanszam.replace(".", "").replace("-", "")
@@ -41,7 +42,7 @@ for i in range (parosszam, paratlanszam, 1):
     atlag = atlag+ i
     dbatlag +=1
     if(i % 4 == 0):
-        darab =+1
+        darab += 1
 
 atlag = atlag/dbatlag
 print(f"A két szám közti számok átlaga: {atlag}\nA 4-el osztható számok darabszáma: {darab} db")
