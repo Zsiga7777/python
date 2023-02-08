@@ -1,4 +1,4 @@
-bekertSzam:str=None
+bekertSzam:int=None
 bekertSzamMasolat:str=None
 
 while (bekertSzam == None or bekertSzam < 100 or bekertSzam > 999):

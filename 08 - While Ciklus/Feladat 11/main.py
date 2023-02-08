@@ -1,14 +1,14 @@
 import random
 
-parosszam:str = None
+parosszam:int = None
 parosszamMasolat:str = None
-paratlanszam:str=None
+paratlanszam:int=None
 paratlanszamMasolat:str=None
 atlag:float=0
 dbatlag:int=0
 darab:int=0
 randszam:float=0
-kozep:float=None
+
 
 while (parosszam == None or  parosszam % 2 != 0):
     print("Kérek egy páros számot:", end='')
@@ -30,14 +30,12 @@ while (paratlanszam == None or paratlanszam % 2 ==0 or parosszam> paratlanszam):
 
 randszam = random.randrange(parosszam, paratlanszam)
 
-kozep= ((paratlanszam-parosszam)/2) + parosszam
-
-if(randszam < kozep):
+if(abs(parosszam-randszam) < (paratlanszam-randszam)):
     print(f"A {randszam} random szám a páratlan számtól van messzebb ")
 else:
     print(f"A {randszam} random szám a páros számtól van messzebb")
 
-for i in range (parosszam, paratlanszam, 1):
+for i in range (parosszam, paratlanszam+1, 1):
     atlag = atlag+ i
     dbatlag +=1
     if(i % 4 == 0):

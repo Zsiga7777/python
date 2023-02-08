@@ -1,14 +1,14 @@
-eletkor:str = None
+eletkor:int = -1
 eletkorMasolat:str = None
 
-while (eletkor == None or (eletkor<0 or eletkor > 99)):
+while  (eletkor<0 or eletkor > 99):
     print ("Kérem az életkorát: ", end='')
     eletkor = input()
     eletkorMasolat = eletkor.replace(".", "").replace("-","")
     if(eletkorMasolat.isnumeric()):
-        eletkor=float(eletkor)
+        eletkor=int(eletkor)
     else:
-        eletkor = None
+        eletkor = -1
 
 if(eletkor > 0 and eletkor <= 6):
     print("Ön a gyerek korosztályba esik")

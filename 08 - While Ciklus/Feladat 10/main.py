@@ -1,12 +1,12 @@
 from os import system
 
-bekertSzam:str=None
+bekertSzam:int=None
 bekertSzamMasolat:str=None
 osszeg:int=0
 darabszam:int=-1
 szam_e:bool=False
 
-while(bekertSzam == None or szam_e == False or bekertSzam<0 or bekertSzam >99):
+while(bekertSzam == None or szam_e == False or bekertSzam<10 or bekertSzam >99):
     print("Kérek egy egész számot:", end='')
     bekertSzam = input()
     bekertSzamMasolat = bekertSzam.replace(".", "").replace(".", "")

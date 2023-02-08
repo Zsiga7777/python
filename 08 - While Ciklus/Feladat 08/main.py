@@ -4,7 +4,7 @@ uditoSzama:str=None
 uditoSzamaMasolat:str=None
 szam_e:bool=False
 
-while(uditoSzama == None or szam_e == False or uditoSzama < 0 or uditoSzama >6):
+while(uditoSzama == None or not szam_e or uditoSzama < 0 or uditoSzama >6):
     system('cls')
     print("Az üditő kínálat:\n1: Fanta\n2: Kóla\n3: iceTea\n4: Pepsi\n5: víz")
     print("Kérem az ön által választott italt:",end='')

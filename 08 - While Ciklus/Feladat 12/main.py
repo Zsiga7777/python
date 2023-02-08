@@ -1,4 +1,4 @@
-megtakaritas:str = None
+megtakaritas:int = None
 megtakaritasMasolat:str = None
 honapokSzama:int=0
 
@@ -7,7 +7,7 @@ while (megtakaritas == None or megtakaritas < 0 or megtakaritas > 100000):
     megtakaritas = input()
     megtakaritasMasolat = megtakaritas.replace(".","").replace("-","")
     if(megtakaritasMasolat.isnumeric()):
-        megtakaritas = float(megtakaritas)
+        megtakaritas = int(megtakaritas)
     else:
         megtakaritas = None
 
