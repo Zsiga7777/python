@@ -1,4 +1,4 @@
-bekertSzam:int=None
+bekertSzam:str=None
 bekertSzamMasolat:str=None
 
 while (bekertSzam == None or bekertSzam < 100 or bekertSzam > 999):
@@ -6,7 +6,7 @@ while (bekertSzam == None or bekertSzam < 100 or bekertSzam > 999):
     bekertSzam = input()
     bekertSzamMasolat = bekertSzam.replace(".", "").replace("-","")
     if(bekertSzamMasolat.isnumeric()):
-        bekertSzam = int(bekertSzam)
+        bekertSzam = int(bekertSzamMasolat)
     else:
         bekertSzam = None
 

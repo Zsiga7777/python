@@ -1,13 +1,13 @@
 from os import system
 
-bekertSzam:int=None
+bekertSzam:str=None
 bekertSzamMasolat:str=None
 osszeg:int=0
 darabszam:int=-1
 szam_e:bool=False
 
 while(bekertSzam == None or szam_e == False or bekertSzam<10 or bekertSzam >99):
-    print("Kérek egy egész számot:", end='')
+    print("Kérek egy egész számot (10 és 99 között):", end='')
     bekertSzam = input()
     bekertSzamMasolat = bekertSzam.replace(".", "").replace(".", "")
     szam_e = bekertSzamMasolat.isnumeric()
