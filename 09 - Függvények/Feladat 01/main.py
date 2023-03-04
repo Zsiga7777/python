@@ -8,5 +8,14 @@ eredmeny:float = None
 szam1 = bekeres()
 szam2 = bekeres()
 
-eredmeny=osszeada(szam1, szam2)
+eredmeny=osszeadas(szam1, szam2)
 kiiras (szam1, szam2, eredmeny, "+")
+
+eredmeny=kivonas(szam1, szam2)
+kiiras (szam1, szam2, eredmeny, "-")
+
+eredmeny=szorzas(szam1, szam2)
+kiiras (szam1, szam2, eredmeny, "*")
+
+eredmeny=osztas(szam1, szam2)
+kiiras (szam1, szam2, eredmeny, "/")

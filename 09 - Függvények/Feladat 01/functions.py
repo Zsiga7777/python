@@ -1,13 +1,16 @@
-def osszeada (a:float, b:float)->float:
+def osszeadas (a:float, b:float)->float:
     osszeg:float= None
     osszeg = a+b
     return osszeg
-def kivonas (a:int, b:int)->int:
-    vegleges:int= a-b
+def kivonas (a:float, b:float)->float:
+    vegleges:float= None
+    vegleges = a-b
     return vegleges
-def szorzas (a:int, b:int)->int:
-    szorzat:int= a*b
+def szorzas (a:float, b:float)->float:
+    szorzat:float= None
+    szorzat = a*b
     return szorzat
-def osztas (a:int, b:int)->float:
-    vegleges:int= a/b
+def osztas (a:float, b:float)->float:
+    vegleges:float= None
+    vegleges = a/b
     return vegleges
