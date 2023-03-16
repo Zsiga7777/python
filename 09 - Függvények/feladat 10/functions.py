@@ -1,18 +1,18 @@
 import random
 from kibe import *
-def randomSzam(a:int, b:int)->int:
+def randomSzam(min:int, max:int)->int:
     eredmeny:int=0
-    eredmeny = random.randint(a, b)
+    eredmeny = random.randint(min, max)
     return eredmeny
 
-def jatek(a:int)->int:
+def jatek(randomSzam:int)->int:
     db:int=0
     tipp:int=None
-    while (tipp == None or tipp != a):
+    while (tipp == None or tipp != randomSzam):
         tipp = bekeresSzam()
         db +=1
-        if(tipp>a):
+        if(tipp>randomSzam):
             print("A keresett szám kisebb")
-        elif(tipp<a):
+        elif(tipp<randomSzam):
             print("A keresett szám nagyobb")
     return db

@@ -1,7 +1,7 @@
-def oraberSzamitas(a:int)->int:
+def oraberSzamitas(oraSzam:int)->int:
     eredmeny:int=0
     fizetes:int = 1000
-    eredmeny = a*fizetes
-    if(a > 40):
-        eredmeny = eredmeny + ((a-40)*500)
+    eredmeny = oraSzam*fizetes
+    if(oraSzam > 40):
+        eredmeny = eredmeny + ((oraSzam-40)*500)
     return eredmeny

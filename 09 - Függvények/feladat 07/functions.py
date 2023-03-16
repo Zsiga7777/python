@@ -6,17 +6,17 @@ def randomSzam()->list:
         a.append(random.randint(0, 10000))
     return a
 
-def osszeadas(a:list)->int:
+def osszeadas(lista:list)->int:
     osszeg:int=0
     for i in range(0, 10, 1):
-        osszeg += a[i]
+        osszeg += lista[i]
     return osszeg
 
-def melyikANagyobb (a:int, b:int)->str:
+def melyikANagyobb (osszeg1:int, osszeg2:int)->str:
     nagyobb:str=None
-    if(a==b):
+    if(osszeg1==osszeg2):
         nagyobb = "Egyenlőek"
-    elif(a > b):
+    elif(osszeg1 > osszeg2):
         nagyobb ="Első"
     else:
         nagyobb = "Második"

@@ -32,5 +32,5 @@ def bekeresSzam()->float:
             print("Nem szót adott meg.")
     return szam
 
-def kiiras(a:float, b:float, c:str)->None:
-    print(f"{a} Celsius = {b}-{c}-al.")
+def kiiras(homersekletEredeti:float, homersekletAtvaltott:float, mertekEgyseg:str)->None:
+    print(f"{homersekletEredeti} Celsius = {homersekletAtvaltott}-{mertekEgyseg}-al.")

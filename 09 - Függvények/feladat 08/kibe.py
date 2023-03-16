@@ -16,5 +16,5 @@ def bekeres()->float:
             print("Nem számot adott meg.")
     return szam
 
-def kiiras(a:float)->None:
-    print(f"A két pont távolsága:{a} cm")
+def kiiras(tavolsag:float)->None:
+    print(f"A két pont távolsága:{tavolsag} cm")

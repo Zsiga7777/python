@@ -16,5 +16,5 @@ def bekeresSzam()->int:
             print("Nem számot adott meg.")
     return szam
 
-def kiiras(a:int, b:int)->None:
-    print(f"Gratulálok, kitalálta a helyes számot, ami {a} volt. {b} db próbából sikerült kitalálni.")
+def kiiras(helyesSzam:int, tippSzam:int)->None:
+    print(f"Gratulálok, kitalálta a helyes számot, ami {helyesSzam} volt. {tippSzam} db próbából sikerült kitalálni.")

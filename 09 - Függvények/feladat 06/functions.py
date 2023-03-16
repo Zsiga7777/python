@@ -1,8 +1,8 @@
-def fokKonvert(a:float, b:str)->float:
+def fokKonvert(homerseklet:float, mertekEgyseg:str)->float:
     eredmeny:float=0
-    if(b == "K"):
-        eredmeny = a + 273.15
+    if(mertekEgyseg == "K"):
+        eredmeny = homerseklet + 273.15
     else:
-        eredmeny =9/5*a+32
+        eredmeny =9/5*homerseklet+32
     
     return eredmeny

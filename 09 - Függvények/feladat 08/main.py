@@ -12,6 +12,6 @@ y1 = bekeres()
 x2 = bekeres()
 y2 = bekeres()
 
-tavolsag = tavolsagSzamitas(x1,y1,x2,y2)
+tavolsag = tavolsagSzamitas(x1,x2,y1,y2)
 
 kiiras(tavolsag)

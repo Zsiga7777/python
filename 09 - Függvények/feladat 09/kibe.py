@@ -32,5 +32,5 @@ def bekeresSzam()->float:
             print("Nem pénz összeget adott meg meg.")
     return szam
 
-def kiiras(a:float, b:float, c:float, d:str)->None:
-    print(f"{a} HUF = {b}-{d}-al és {c} eruróval")
+def kiiras(ft:float, valtottErtek:float, euro:float, deviza:str)->None:
+    print(f"{ft} HUF = {valtottErtek}-{deviza}-al és {euro} eruróval")

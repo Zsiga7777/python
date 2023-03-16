@@ -1,5 +1,5 @@
 from math import sqrt
-def tavolsagSzamitas(a:float, b:float, c:float, d:float)->float:
+def tavolsagSzamitas(x1:float, x2:float, y1:float, y2:float)->float:
     eredmeny:float=0
-    eredmeny = sqrt( (c - a)**2 + (d - b)**2 )
+    eredmeny = sqrt( (x1 - x2)**2 + (y1 - y2)**2 )
     return eredmeny
