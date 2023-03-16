@@ -14,5 +14,5 @@ def bekeres()->str:
             print("Nem szót adott meg.")
     return szoveg
 
-def kiiras(a:int)->None:
-    print(f"A két szónak {a} Db karaktere eggyezik meg.")
+def kiiras(db:int)->None:
+    print(f"A két szónak {db} Db karaktere eggyezik meg.")

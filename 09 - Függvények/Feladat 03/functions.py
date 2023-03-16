@@ -1,8 +1,5 @@
 import datetime 
-def kor(a:int)->int:
+def kor(evszam:int)->int:
     kor:int=None
-    datum = datetime.date.today()
-    evszam = datum.year
-    int(evszam)
-    kor = evszam - a
+    kor = datetime.date.today().year - evszam
     return kor

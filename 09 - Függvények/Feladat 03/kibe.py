@@ -32,5 +32,5 @@ def szuletesBekeres()->int:
             print("Nem évet adott meg.")
     return ev
 
-def kiiras(a:str, b:int)->None:
-    print(f"{a} ön az idén {b} éves.")
+def kiiras(nev:str, kor:int)->None:
+    print(f"{nev} ön az idén {kor} éves.")

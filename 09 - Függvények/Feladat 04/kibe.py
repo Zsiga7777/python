@@ -17,6 +17,6 @@ def bekeres()->str:
             print("Nem nevet adott meg.")
     return nev
 
-def kiiras(a:str)->None:
-    szam:int=len(a)
-    print (f'%s Üdvözlöm {a} %s' % (fg(szam), attr(0)))
+def kiiras(nev:str)->None:
+    szam:int=len(nev)
+    print (f'%s Üdvözlöm {nev} %s' % (fg(szam), attr(0)))

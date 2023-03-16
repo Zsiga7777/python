@@ -1,11 +1,13 @@
-def egyezes(a:str, b:str)->int:
+def egyezes(szo1:str, szo2:str)->int:
     db:int=0
-    betuElsoSzo:str=None
-    betuMasodikSzo:str=None
-    for i in range (0, len(a), 1):
-        betuElsoSzo = a[i]
-        for j in range (0, len(b), 1):
-            betuMasodikSzo = b[j]
-            if(betuElsoSzo == betuMasodikSzo):
-                db +=1
+    szo1Masolat:str=""
+    szo2Masolat:str=""
+    for i in szo1:
+        if(szo1Masolat.count(i) == 0):
+            szo1Masolat += i
+    for i in szo2:
+        if(szo2Masolat.count(i) == 0):
+            szo2Masolat += i
+    for i in szo1Masolat:
+        db += szo2Masolat.count(i)
     return db
