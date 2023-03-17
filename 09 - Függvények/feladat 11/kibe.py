@@ -14,6 +14,12 @@ def bekeresNev()->str:
             print("Nem nevet adott meg.")
     return nev
 
+def nevekBekeres()->str:
+    nevek:str =""
+    for i in range(0, 5, 1):
+        nevek += bekeresNev() + ","
+    return nevek
+    
 def bekeresSzam()->int:
     szam:int=None
     temp:str = None
@@ -31,6 +37,12 @@ def bekeresSzam()->int:
         else:
             print("Nem óra számot adott meg meg.")
     return szam
+
+def szamokBekeres()->str:
+    szamok:str =""
+    for i in range(0, 5, 1):
+        szamok += bekeresSzam() + ","
+    return szamok
 
 def kiiras(ora:int, fiz:int, nev:str)->None:
     print(f"{nev}, ön {ora} órát dolgozott, és {fiz} Ft-ot keresett")

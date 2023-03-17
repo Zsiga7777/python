@@ -1,8 +1,8 @@
 from functions import *
 from kibe import *
 
-lista1:list = []
-lista2:list = []
+lista1:str = ""
+lista2:str = ""
 osszeg1:int= None
 osszeg2:int= None
 eredmeny:str=None

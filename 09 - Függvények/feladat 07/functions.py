@@ -1,15 +1,15 @@
 import random
 
-def randomSzam()->list:
-    a :list = []
+def randomSzam()->str:
+    a :str = ""
     for i in range (1, 11, 1):
-        a.append(random.randint(0, 10000))
+        a += str(random.randint(0, 10000))+","
     return a
 
-def osszeadas(lista:list)->int:
+def osszeadas(lista:str)->int:
     osszeg:int=0
     for i in range(0, 10, 1):
-        osszeg += lista[i]
+        osszeg += int(lista.split(",")[i])
     return osszeg
 
 def melyikANagyobb (osszeg1:int, osszeg2:int)->str:

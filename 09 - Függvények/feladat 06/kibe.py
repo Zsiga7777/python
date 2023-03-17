@@ -11,7 +11,7 @@ def bekeresSzoveg()->str:
         if (ismertegegyseg):
             mertegegyseg = (temp)
         else:
-            print("Nem szót adott meg.")
+            print("Nem mértékegységet meg.")
     return mertegegyseg
 
 def bekeresSzam()->float:
@@ -29,7 +29,7 @@ def bekeresSzam()->float:
         if (isSzam):
             szam = float(temp)
         else:
-            print("Nem szót adott meg.")
+            print("Nem hőmérsékleti értéket adott meg.")
     return szam
 
 def kiiras(homersekletEredeti:float, homersekletAtvaltott:float, mertekEgyseg:str)->None:

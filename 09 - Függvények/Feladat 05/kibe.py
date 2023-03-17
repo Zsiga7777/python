@@ -5,7 +5,7 @@ def bekeres()->str:
 
     while ((szoveg == None) or isszoveg== False or len(szoveg) < 2):
         print("Kérek egy szót:", end='')
-        temp = input()
+        temp = input().lower()
         isszoveg = temp.isalpha()
 
         if (isszoveg):
