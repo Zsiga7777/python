@@ -41,8 +41,18 @@ def bekeresSzam()->int:
 def szamokBekeres()->str:
     szamok:str =""
     for i in range(0, 5, 1):
-        szamok += bekeresSzam() + ","
+        szamok += str( bekeresSzam()) + ","
     return szamok
 
-def kiiras(ora:int, fiz:int, nev:str)->None:
-    print(f"{nev}, ön {ora} órát dolgozott, és {fiz} Ft-ot keresett")
+def kiiras(nevek:str, orak:str, fizetesek:str )->None:
+    nev:str=""
+    ora:str=""
+    fizetes:str=""
+    for i in range (0, 5, 1):
+        nev = nevek.split(",")[i]
+        ora = orak.split(",")[i]
+        fizetes = fizetesek.split(",")[i]
+        print(f"{nev}, ön {ora} órát dolgozott, és {fizetes} Ft-ot keresett")
+        nev = ""
+        ora = ""
+        fizetes = ""

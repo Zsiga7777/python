@@ -1,8 +1,12 @@
-
-def oraberSzamitas(oraSzam:int)->int:
+def oraberSzamitas(oraSzam:str)->str:
+    vegso:str= ""
     eredmeny:int=0
     fizetes:int = 1000
-    eredmeny = oraSzam*fizetes
-    if(oraSzam > 40):
-        eredmeny = eredmeny + ((oraSzam-40)*500)
-    return eredmeny
+    for i in range (0, 5, 1):
+        eredmeny = int(oraSzam.split(",")[i])*fizetes 
+        if(int(oraSzam.split(",")[i]) > 40):
+            eredmeny = eredmeny + ((int(oraSzam.split(",")[i])-40)*500)
+        vegso += str(eredmeny) + ","
+        eredmeny = 0
+    return vegso
+

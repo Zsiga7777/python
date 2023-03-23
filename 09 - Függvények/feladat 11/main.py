@@ -11,4 +11,5 @@ system('cls')
 
 nevek = nevekBekeres()
 orak= szamokBekeres()
-fizetesek = szamokBekeres()
+fizetesek = oraberSzamitas(orak)
+kiiras(nevek, orak, fizetesek)
