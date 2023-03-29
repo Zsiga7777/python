@@ -1,4 +1,4 @@
-def bekeresSzoveg()->str:
+def bekeresMertekegyseg()->str:
     mertegegyseg:str=None
     temp:str = None
     ismertegegyseg: bool = False
