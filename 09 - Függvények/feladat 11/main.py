@@ -8,8 +8,9 @@ fizetesek:int=None
 
 
 system('cls')
-
-nevek = nevekBekeres()
-orak= szamokBekeres()
-fizetesek = oraberSzamitas(orak)
-kiiras(nevek, orak, fizetesek)
+munkasSzam = bekeresMunkasSzam()
+nevek = nevekBekeres(munkasSzam)
+orak= szamokBekeres(munkasSzam)
+fizetesek = oraberSzamitas(orak, munkasSzam)
+system('cls')
+kiiras(nevek, orak, fizetesek, munkasSzam)
