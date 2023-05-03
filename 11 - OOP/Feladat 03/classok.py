@@ -7,7 +7,7 @@ class Alaplap:
         self.foglalat:str=foglalat
         self.maxMemoriaSebesseg:int=maxMemoriaSebesseg
     def __str__(self) -> str:
-        return f"gyarto:{self.gyarto}, modell:{self.modell}, memória Típusa:{self.memoriaTipusa}, foglalat:{self.foglalat}, maximum memória sebesség:{self.maxMemoriaSebesseg} Mhz "
+        return f"gyartó:{self.gyarto},\nmodell:{self.modell},\nmemória Típusa:{self.memoriaTipusa},\nfoglalat:{self.foglalat},\nmaximum memória sebesség:{self.maxMemoriaSebesseg} Mhz "
 
 class Memoria:
     def __init__(self, gyarto:str="Kingston", modell:str="FURY Renegade", memoriaTipusa:str="DDR4", meret:int=16, maxMemoriaSebesseg:int=3600):
@@ -18,7 +18,7 @@ class Memoria:
         self.meret:str=meret
         self.maxMemoriaSebesseg:int=maxMemoriaSebesseg
     def __str__(self) -> str:
-        return f"gyarto:{self.gyarto}, modell:{self.modell}, memória Típusa:{self.memoriaTipusa}, memória mérete:{self.meret} GB, maximum memória sebesség:{self.maxMemoriaSebesseg} Mhz "
+        return f"gyartó:{self.gyarto},\nmodell:{self.modell},\nmemória Típusa:{self.memoriaTipusa},\nmemória mérete:{self.meret} GB,\nmaximum memória sebesség:{self.maxMemoriaSebesseg} Mhz "
 
 class Processzor:
     def __init__(self, gyarto:str="Intel", modell:str="i9-13900K", magokSzama:int=24, foglalat:str="LGA1700", maxOrajel:float=5.80):
@@ -29,7 +29,7 @@ class Processzor:
         self.foglalat:str=foglalat
         self.maxOrajel:float=maxOrajel
     def __str__(self) -> str:
-        return f"gyarto:{self.gyarto}, modell:{self.modell}, magok száma:{self.magokSzama} DB, foglalat típusa:{self.foglalat}, maximum órajel:{self.maxOrajel} Ghz "
+        return f"gyartó:{self.gyarto},\nmodell:{self.modell},\nmagok száma:{self.magokSzama} DB,\nfoglalat típusa:{self.foglalat},\nmaximum órajel:{self.maxOrajel} Ghz "
 
 class Videokartya:
     def __init__(self, gyarto:str="gigabyte", modell:str="GeForce RTX™ 4090 GAMING OC 24G (rev. 1.0 / 1.1)", magokSzama:int=16384, memoriaTipus:str="GDDR6X", maxOrajel:int=2535, vram:int=24, hossz:float=340):
@@ -42,7 +42,7 @@ class Videokartya:
         self.vram:int=vram
         self.hossz:float=hossz
     def __str__(self) -> str:
-        return f"gyarto:{self.gyarto}, modell:{self.modell}, magok száma:{self.magokSzama} DB, memória típusa:{self.memoriaTipus}, maximum órajel:{self.maxOrajel} Ghz, memória mérete:{self.vram} GB, hossza:{self.hossz} mm "
+        return f"gyartó:{self.gyarto},\nmodell:{self.modell},\nmagok száma:{self.magokSzama} DB,\nmemória típusa:{self.memoriaTipus},\nmaximum órajel:{self.maxOrajel} Mhz,\nmemória mérete:{self.vram} GB,\nhossza:{self.hossz} mm "
 
 class Hattertar:
     def __init__(self, gyarto:str="Kingston",tipus:str="M.2", modell:str="NV2 2TB M.2 (SNV2S/2000G)", tarhely:int=2, irasiSebesseg:int=2800, olvasasiSebesseg:int=3500):
@@ -54,19 +54,21 @@ class Hattertar:
         self.irasiSebesseg:int=irasiSebesseg
         self.olvasasiSebesseg:int=olvasasiSebesseg
     def __str__(self) -> str:
-        return f"gyarto:{self.gyarto}, modell:{self.modell}, típusa:{self.tipus}, tárhelye:{self.tarhely} TB, írási sebesség:{self.irasiSebesseg} MB/s, olvasási sebesség:{self.olvasasiSebesseg} MB/s "
+        return f"gyartó:{self.gyarto},\nmodell:{self.modell},\ntípusa:{self.tipus},\ntárhelye:{self.tarhely} TB,\nírási sebesség:{self.irasiSebesseg} MB/s,\nolvasási sebesség:{self.olvasasiSebesseg} MB/s "
 
 class Tapegyseg:
-    def __init__(self, gyarto:str,tipus:str, modell:str, teljesitmeny:int, hatasfok:int, ):
+    def __init__(self, gyarto:str="Corsair",tipus:str="Moduláris", modell:str="AX1600i Digital ATX Power Supply — 1600 Watt Fully-Modular PSU", teljesitmeny:int=1600, hatasfok:int=80, ):
         super().__init__()
         self.gyarto:str=gyarto
         self.modell:str=modell
         self.tipus:str=tipus
         self.teljesitmeny:int=teljesitmeny
         self.hatasfok:int=hatasfok
+    def __str__(self) -> str:
+        return f"gyartó:{self.gyarto},\nmodell:{self.modell},\ntípusa:{self.tipus},\nteljesítménye:{self.teljesitmeny} W,\nhatásfoka:{self.hatasfok} %"
 
-class szamitogep:
-    def __init__(self, alaplap:Alaplap, processzor:Processzor, videoKartya:Videokartya, hattertar:Hattertar, memoria:Memoria, tapegyseg:Tapegyseg):
+class Szamitogep:
+    def __init__(self, alaplap:Alaplap=Alaplap(), processzor:Processzor=Processzor(), videoKartya:Videokartya=Videokartya(), hattertar:Hattertar=Hattertar(), memoria:Memoria=Memoria(), tapegyseg:Tapegyseg=Tapegyseg()):
         super().__init__()
         self.alaplap:Alaplap = alaplap
         self.processzor:Processzor=processzor
@@ -74,3 +76,5 @@ class szamitogep:
         self.hattertar:Hattertar=hattertar
         self.memoria:Memoria=memoria
         self.tapegyseg:Tapegyseg= tapegyseg
+    def __str__(self) -> str:
+        return f"alaplap:{self.alaplap}\n\nprocesszor:{self.processzor}\n\nvideókártya:{self.videoKartya}\n\nháttértár:{self.hattertar}\n\nmemória:{self.memoria}\n\ntápegység:{self.tapegyseg}"
