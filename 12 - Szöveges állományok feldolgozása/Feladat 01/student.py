@@ -1,3 +1,4 @@
+from typing import *
 class Student:
     def __init__(self):
         super().__init__()
