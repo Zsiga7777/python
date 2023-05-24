@@ -22,12 +22,5 @@ print(f"\n\nA legjobb tamuló:{legjobbTanulo.nev}\n\n")
 atlafFeletteiT :List[Student]=atlagFeletti(students,atlag)
 kiiras(atlafFeletteiT, "atlagfelett.txt")
 # 6 - Van e kitünő tanulónk?
-vanEKituno:str=kitunoTanKer(atlafFeletteiT)
-print(f"{vanEKituno} kitűnő tanuló")
-# 7 - Hány elégtelen, elégséges, jó, jeles és kitünő tanuló van az osztályban?
-#     Értékhatárok:
-# 	- elégtelen, ha: 0.00 - 1.99
-# 	- elégséges, ha: 2.00 - 2.99
-# 	- jó, ha: 3.00 - 3.99
-# 	- jeles, ha: 4.00 - 4.99
-# 	- kitünő, ha: 5.00
+vanEKituno:bool=kitunoTanKer(students)
+print(f"Van kitűnő tanuló:{vanEKituno}")
