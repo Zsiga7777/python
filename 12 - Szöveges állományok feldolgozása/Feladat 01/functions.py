@@ -20,3 +20,12 @@ def atlagFeletti(students:List[Student], atlag:float)->List[Student]:
         if (tanulo.atlag >= atlag):
             tanulok.append(tanulo)
     return tanulok
+
+def kitunoTanKer(students:List[Student])->str:
+    eredmeny:str="nincs"
+    for student in students:
+        if(student.atlag ==5):
+            eredmeny="van"
+            return eredmeny
+            break
+    return eredmeny
