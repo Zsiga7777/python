@@ -4,7 +4,7 @@ class Konyv():
         super().__init__()
         self.vezeteknev:str=None
         self.keresztnev:str=None
-        self.szuletesiDatum:str=None
+        self.szuletesiDatum:datetime=None
         self.cim:str=None
         self.iSBN:int=0
         self.kiado:str=None

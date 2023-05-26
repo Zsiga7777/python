@@ -1,6 +1,7 @@
 from konyv import *
 from typing import *
 import os
+from datetime import *
 def konyvBeolvasas()->List[Konyv]:
     fileName:str = "data/adatok.txt"
     basepath: str = os.path.dirname(os.path.abspath(__file__))
@@ -18,15 +19,15 @@ def konyvBeolvasas()->List[Konyv]:
                 konyv= Konyv()
                 konyv.vezeteknev=data[0]
                 konyv.keresztnev= data[1]
-                konyv.szuletesiDatum= data[2]
+                konyv.szuletesiDatum= datetime.fromisoformat(data[2])
                 konyv.cim= data[3]
                 konyv.iSBN=data[4]
                 konyv.kiado= data[5]
-                konyv.kiadvasiEv= data[6]
-                konyv.ar= data[7]
+                konyv.kiadvasiEv= int(data[6])
+                konyv.ar= float(data[7])
                 konyv.tema=data[8]
-                konyv.oldalszam= data[9]
-                konyv.honorarium= data[10]
+                konyv.oldalszam= int(data[9])
+                konyv.honorarium= float(data[10])
                 konyvek.append(konyv)
         return konyvek
             

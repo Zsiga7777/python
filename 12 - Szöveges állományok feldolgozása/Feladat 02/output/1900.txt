@@ -1,8 +1,8 @@
-Christie Agatha (1890-09-15) - A vád tanúja (963841345X) Hunga-Print [1994] ár:3000 Ft, témája:krimi, oldaszáma:254, honoránium:705 Ft 
-Asimov Isaac (1920-01-02) - A biológia rövid története (11111111111) Gondolat Kiadó [1972] ár:1200 Ft, témája:természettudomány, oldaszáma:278, honoránium:514 Ft 
-Asimov Isaac (1920-01-02) - A Hold tragédiája (22222222222) Kozmosz Könyvek [1979] ár:1500 Ft, témája:szépirodalom, oldaszáma:310, honoránium:927 Ft 
-Lefebvre Georges (1874-08-06) - Napóleon (963280256X) Gondolat [1975] ár:1500 Ft, témája:történelem, oldaszáma:783, honoránium:160 Ft 
-Attenborough David (1926-05-08) - Az élet erőpróbái (9638227117) PARK KÖNYVKIADÓ KFT. [1994] ár:1701 Ft, témája:természettudomány, oldaszáma:326, honoránium:285 Ft 
-Attenborough David (1926-05-08) - Az élő bolygó - a föld mai arculata (9635300077) PARK KÖNYVKIADÓ KFT. [1994] ár:2081 Ft, témája:természettudomány, oldaszáma:324, honoránium:600 Ft 
-Attenborough David (1926-05-08) - Az első édenkert (9630267217) PARK KÖNYVKIADÓ KFT. [1989] ár:1200 Ft, témája:természettudomány, oldaszáma:238, honoránium:273 Ft 
-Gamma Erich (1961-12-31) - Design Patterns: Elements of Reusable Object-Oriented Software (9780201633610) Addison-Wesley Professional [1994] ár:5980 Ft, témája:informatika, oldaszáma:416, honoránium:445 Ft 
+Christie Agatha (1890-09-15 00:00:00) - A vád tanúja (963841345X) Hunga-Print [1994] ár:3000.0 Ft, témája:krimi, oldaszáma:254, honoránium:705.0 Ft 
+Asimov Isaac (1920-01-02 00:00:00) - A biológia rövid története (11111111111) Gondolat Kiadó [1972] ár:1200.0 Ft, témája:természettudomány, oldaszáma:278, honoránium:514.0 Ft 
+Asimov Isaac (1920-01-02 00:00:00) - A Hold tragédiája (22222222222) Kozmosz Könyvek [1979] ár:1500.0 Ft, témája:szépirodalom, oldaszáma:310, honoránium:927.0 Ft 
+Lefebvre Georges (1874-08-06 00:00:00) - Napóleon (963280256X) Gondolat [1975] ár:1500.0 Ft, témája:történelem, oldaszáma:783, honoránium:160.0 Ft 
+Attenborough David (1926-05-08 00:00:00) - Az élet erőpróbái (9638227117) PARK KÖNYVKIADÓ KFT. [1994] ár:1701.0 Ft, témája:természettudomány, oldaszáma:326, honoránium:285.0 Ft 
+Attenborough David (1926-05-08 00:00:00) - Az élő bolygó - a föld mai arculata (9635300077) PARK KÖNYVKIADÓ KFT. [1994] ár:2081.0 Ft, témája:természettudomány, oldaszáma:324, honoránium:600.0 Ft 
+Attenborough David (1926-05-08 00:00:00) - Az első édenkert (9630267217) PARK KÖNYVKIADÓ KFT. [1989] ár:1200.0 Ft, témája:természettudomány, oldaszáma:238, honoránium:273.0 Ft 
+Gamma Erich (1961-12-31 00:00:00) - Design Patterns: Elements of Reusable Object-Oriented Software (9780201633610) Addison-Wesley Professional [1994] ár:5980.0 Ft, témája:informatika, oldaszáma:416, honoránium:445.0 Ft 
