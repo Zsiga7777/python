@@ -15,10 +15,15 @@ def fajlOlvasas()->List[Kezilabdas]:
                 egysor =line.strip()
                 egyseg=egysor.split("\t")
                 kezilabdas = Kezilabdas()
-                kezilabdas.csapat = egyseg[4]
-                kezilabdas.magassag = int(egyseg[1])
-                kezilabdas.nemzetiseg = egyseg[3]
                 kezilabdas.nev = egyseg[0]
-                kezilabdas.orszag = egyseg[5]
+                kezilabdas.magassag = int(egyseg[1])
                 kezilabdas.poszt = egyseg[2]
+                kezilabdas.nemzetiseg = egyseg[3]
+                kezilabdas.csapat = egyseg[4]
+                kezilabdas.orszag = egyseg[5]
+                kezilabdasok.append(kezilabdas)
+        return kezilabdasok
+    except FileNotFoundError as er:
+        print(f"A fájlal valami nyűg van {er.filename}")
+        return []
                 
