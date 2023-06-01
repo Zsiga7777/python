@@ -1,4 +1,4 @@
-class Kezilabdas:
+class Roplabdas:
     def __init__(self):
         super().__init__()
         self.nev:str=None
