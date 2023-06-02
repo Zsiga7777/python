@@ -1,6 +1,7 @@
 from kibe import *
 from roplabdas import *
 from functions import *
+from atlagnalMagasabbak import *
 
 # Írjuk ki a képernyőre az össz adatot
 roplabdasok:List[Roplabdas]=fajlOlvasas()
@@ -12,7 +13,8 @@ fajlKiiras(utok, "utok.txt" )
 # - Rendezzük a játékosokat magasság szerint növekvő sorrendbe és a magaslatok.txt állományba mentsük el.
 magassagKereses(roplabdasok)
 fajlKiiras(roplabdasok,"magaslatok.txt")
-# - Mutassuk be a nemzetisegek.txt állományba, hogy mely nemzetiségek képviseltetik magukat a röplabdavilágban mint játékosok és milyen számban.
-
 # - atlagnalmagasabbak.txt állományba keressük azon játékosok nevét és magasságát akik magasabbak mint az „adatbázisban” szereplő játékosok átlagos magasságánál.
+atlagMagassag:float=atlagmagassag(roplabdasok)
+magasabbak:List[Atlagfelettiek]=atlagnalNagyobbak(roplabdasok, atlagMagassag)
+fajlKiiras(magasabbak,"atlagnalmagasabbak.txt")
 # - Egy szöveges állományba, „alacsonyak.txt” keresse ki a játékosok átlagmagasságától alacsonyabb játékosokat. Az állomány tartalmazza a játékosok nevét,  magasságát és hogy mennyivel alacsonyabbak az átlagnál, 2 tizedes pontossággal.

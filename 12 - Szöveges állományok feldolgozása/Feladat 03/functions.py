@@ -1,6 +1,7 @@
 from roplabdas import *
 from typing import *
-from nemzetiseg import *
+from atlagnalMagasabbak import *
+from kibe import *
 
 def posztKereses(roplabdasok:List[Roplabdas], poszt:str)->List [Roplabdas]:
     utok:List[Roplabdas]=[]
@@ -20,7 +21,20 @@ def magassagKereses(roplabdasok:List[Roplabdas])->None:
                 roplabdasok[i]= roplabdasok[j]
                 roplabdasok[j] = nagyobb
 
-def nemzetisegSzamlalo(roplabdasok:List[Roplabdas])->Set[Nemzetiseg]:
-    nemzetisegek:Set(Nemzetiseg)
+def atlagmagassag(roplabdasok:List[Roplabdas])->float:
+    osszes:float=0
+    db:int=0
     for roplabdas in roplabdasok:
-        nemzetisegek
+        osszes += roplabdas.magassag
+        db +=1
+    return osszes/db
+
+def atlagnalNagyobbak(roplabdasok:List[Roplabdas],atlagMagassag:float)->List[Atlagfelettiek]:
+    magasabbak:List[Atlagfelettiek]=[]
+    magasabb:Atlagfelettiek = Atlagfelettiek()
+    for roplabdas in roplabdasok:
+        if(atlagMagassag < roplabdas.magassag):
+            magasabb.nev = roplabdas.nev
+            magasabb.magassag = roplabdas.magassag
+            magasabbak.append(magasabb)
+    return magasabbak
