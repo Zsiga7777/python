@@ -1,0 +1,22 @@
+Város neve:Battonya, város típusa:város, megye neve:Békés, járás:Mezokovácsházai, kistérség:Mezokovácsházai, népesség:5565 fő, területe:145.71 km2
+Város neve:Békés, város típusa:járásszékhely város, megye neve:Békés, járás:Békési, kistérség:Békési, népesség:19763 fő, területe:127.23 km2
+Város neve:Békéscsaba, város típusa:megyeszékhely megyei jogú város, megye neve:Békés, járás:Békéscsabai, kistérség:Békéscsabai, népesség:63752 fő, területe:193.93 km2
+Város neve:Csorvás, város típusa:város, megye neve:Békés, járás:Békéscsabai, kistérség:Orosházai, népesség:4981 fő, területe:90.18 km2
+Város neve:Dévaványa, város típusa:város, megye neve:Békés, járás:Gyomaendrodi, kistérség:Szeghalomi, népesség:7622 fő, területe:216.55 km2
+Város neve:Elek, város típusa:város, megye neve:Békés, járás:Gyulai, kistérség:Gyulai, népesség:4816 fő, területe:54.91 km2
+Város neve:Füzesgyarmat, város típusa:város, megye neve:Békés, járás:Szeghalmi, kistérség:Szeghalomi, népesség:5665 fő, területe:127.34 km2
+Város neve:Gyomaendrod, város típusa:járásszékhely város, megye neve:Békés, járás:Gyomaendrodi, kistérség:Szarvasi, népesség:13674 fő, területe:303.94 km2
+Város neve:Gyula, város típusa:járásszékhely város, megye neve:Békés, járás:Gyulai, kistérség:Gyulai, népesség:31679 fő, területe:255.8 km2
+Város neve:Kondoros, város típusa:város, megye neve:Békés, járás:Szarvasi, kistérség:Szarvasi, népesség:5201 fő, területe:81.84 km2
+Város neve:Körösladány, város típusa:város, megye neve:Békés, járás:Szeghalmi, kistérség:Szeghalomi, népesség:4582 fő, területe:123.79 km2
+Város neve:Medgyesegyháza, város típusa:város, megye neve:Békés, járás:Mezokovácsházai, kistérség:Mezokovácsházai, népesség:3691 fő, területe:64.29 km2
+Város neve:Mezoberény, város típusa:város, megye neve:Békés, járás:Békési, kistérség:Békési, népesség:10896 fő, területe:118.53 km2
+Város neve:Mezohegyes, város típusa:város, megye neve:Békés, járás:Mezokovácsházai, kistérség:Mezokovácsházai, népesség:4994 fő, területe:155.44 km2
+Város neve:Mezokovácsháza, város típusa:járásszékhely város, megye neve:Békés, járás:Mezokovácsházai, kistérség:Mezokovácsházai, népesség:6049 fő, területe:62.59 km2
+Város neve:Orosháza, város típusa:járásszékhely város, megye neve:Békés, járás:Orosházi, kistérség:Orosházai, népesség:28910 fő, területe:202.22 km2
+Város neve:Sarkad, város típusa:járásszékhely város, megye neve:Békés, járás:Sarkadi, kistérség:Sarkadi, népesség:10011 fő, területe:125.57 km2
+Város neve:Szarvas, város típusa:járásszékhely város, megye neve:Békés, járás:Szarvasi, kistérség:Szarvasi, népesség:17007 fő, területe:161.57 km2
+Város neve:Szeghalom, város típusa:járásszékhely város, megye neve:Békés, járás:Szeghalmi, kistérség:Szeghalomi, népesség:9115 fő, területe:217.13 km2
+Város neve:Tótkomlós, város típusa:város, megye neve:Békés, járás:Orosházi, kistérség:Orosházai, népesség:5780 fő, területe:125.05 km2
+Város neve:Újkígyós, város típusa:város, megye neve:Békés, járás:Békéscsabai, kistérség:Békéscsabai, népesség:5235 fő, területe:54.92 km2
+Város neve:Vészto, város típusa:város, megye neve:Békés, járás:Szeghalmi, kistérség:Szeghalomi, népesség:6680 fő, területe:125.7 km2

@@ -1,0 +1,29 @@
+Város neve:Balmazújváros, város típusa:járásszékhely város, megye neve:Hajdú-Bihar, járás:Balmazújvárosi, kistérség:Balmazújvárosi, népesség:17354 fő, területe:205.45 km2
+Város neve:Budapest, város típusa:fováros, megye neve:Budapest, járás:, kistérség:Budapest, népesség:1740041 fő, területe:525.09 km2
+Város neve:Cegléd, város típusa:járásszékhely város, megye neve:Pest, járás:Ceglédi, kistérség:Ceglédi, népesség:37778 fő, területe:244.87 km2
+Város neve:Debrecen, város típusa:megyeszékhely megyei jogú város, megye neve:Hajdú-Bihar, járás:Debreceni, kistérség:Debreceni, népesség:207594 fő, területe:461.66 km2
+Város neve:Dévaványa, város típusa:város, megye neve:Békés, járás:Gyomaendrodi, kistérség:Szeghalomi, népesség:7622 fő, területe:216.55 km2
+Város neve:Gyomaendrod, város típusa:járásszékhely város, megye neve:Békés, járás:Gyomaendrodi, kistérség:Szarvasi, népesség:13674 fő, területe:303.94 km2
+Város neve:Gyula, város típusa:járásszékhely város, megye neve:Békés, járás:Gyulai, kistérség:Gyulai, népesség:31679 fő, területe:255.8 km2
+Város neve:Hajdúböszörmény, város típusa:járásszékhely város, megye neve:Hajdú-Bihar, járás:Hajdúböszörményi, kistérség:Hajdúböszörményi, népesség:31306 fő, területe:370.78 km2
+Város neve:Hajdúnánás, város típusa:járásszékhely város, megye neve:Hajdú-Bihar, járás:Hajdúnánási, kistérség:Hajdúböszörményi, népesség:16975 fő, területe:259.62 km2
+Város neve:Hajdúszoboszló, város típusa:járásszékhely város, megye neve:Hajdú-Bihar, járás:Hajdúszoboszlói, kistérség:Hajdúszoboszlói, népesség:23309 fő, területe:238.7 km2
+Város neve:Hódmezovásárhely, város típusa:megyei jogú város, megye neve:Csongrád, járás:Hódmezovásárhelyi, kistérség:Hódmezovásárhelyi, népesség:46522 fő, területe:487.98 km2
+Város neve:Jászberény, város típusa:járásszékhely város, megye neve:Jász-Nagykun-Szolnok, járás:Jászberényi, kistérség:Jászberényi, népesség:26924 fő, területe:221.35 km2
+Város neve:Karcag, város típusa:járásszékhely város, megye neve:Jász-Nagykun-Szolnok, járás:Karcagi, kistérség:Karcagi, népesség:19980 fő, területe:368.63 km2
+Város neve:Kecskemét, város típusa:megyeszékhely megyei jogú város, megye neve:Bács-Kiskun, járás:Kecskeméti, kistérség:Kecskeméti, népesség:114226 fő, területe:322.57 km2
+Város neve:Kiskunfélegyháza, város típusa:járásszékhely város, megye neve:Bács-Kiskun, járás:Kiskunfélegyházi, kistérség:Kiskunfélegyházai, népesség:29972 fő, területe:256.3 km2
+Város neve:Kiskunhalas, város típusa:járásszékhely város, megye neve:Bács-Kiskun, járás:Kiskunhalasi, kistérség:Kiskunhalasi, népesség:28427 fő, területe:227.58 km2
+Város neve:Kiskunmajsa, város típusa:járásszékhely város, megye neve:Bács-Kiskun, járás:Kiskunmajsai, kistérség:Kiskunmajsai, népesség:11766 fő, területe:221.99 km2
+Város neve:Kisújszállás, város típusa:város, megye neve:Jász-Nagykun-Szolnok, járás:Karcagi, kistérség:Karcagi, népesség:11367 fő, területe:205.27 km2
+Város neve:Makó, város típusa:járásszékhely város, megye neve:Csongrád, járás:Makói, kistérség:Makói, népesség:23573 fő, területe:229.23 km2
+Város neve:Mezotúr, város típusa:járásszékhely város, megye neve:Jász-Nagykun-Szolnok, járás:Mezotúri, kistérség:Mezotúri, népesség:17337 fő, területe:289.72 km2
+Város neve:Miskolc, város típusa:megyeszékhely megyei jogú város, megye neve:Borsod-Abaúj-Zemplén, járás:Miskolci, kistérség:Miskolci, népesség:166823 fő, területe:236.66 km2
+Város neve:Nádudvar, város típusa:város, megye neve:Hajdú-Bihar, járás:Hajdúszoboszlói, kistérség:Püspökladányi, népesség:8768 fő, területe:225.91 km2
+Város neve:Nagykorös, város típusa:járásszékhely város, megye neve:Pest, járás:Nagykorösi, kistérség:Ceglédi, népesség:24433 fő, területe:227.94 km2
+Város neve:Nyíregyháza, város típusa:megyeszékhely megyei jogú város, megye neve:Szabolcs-Szatmár-Bereg, járás:Nyíregyházi, kistérség:Nyíregyházai, népesség:117658 fő, területe:274.54 km2
+Város neve:Orosháza, város típusa:járásszékhely város, megye neve:Békés, járás:Orosházi, kistérség:Orosházai, népesség:28910 fő, területe:202.22 km2
+Város neve:Szeged, város típusa:megyeszékhely megyei jogú város, megye neve:Csongrád, járás:Szegedi, kistérség:Szegedi, népesség:170052 fő, területe:281 km2
+Város neve:Szeghalom, város típusa:járásszékhely város, megye neve:Békés, járás:Szeghalmi, kistérség:Szeghalomi, népesség:9115 fő, területe:217.13 km2
+Város neve:Szentes, város típusa:járásszékhely város, megye neve:Csongrád, járás:Szentesi, kistérség:Szentesi, népesség:28476 fő, területe:353.25 km2
+Város neve:Túrkeve, város típusa:város, megye neve:Jász-Nagykun-Szolnok, járás:Mezotúri, kistérség:Mezotúri, népesség:8741 fő, területe:236.52 km2

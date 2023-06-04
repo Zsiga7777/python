@@ -2,6 +2,7 @@ from roplabdas import *
 from typing import *
 from atlagnalMagasabbak import *
 from kibe import *
+from atlagAlattiak import *
 
 def posztKereses(roplabdasok:List[Roplabdas], poszt:str)->List [Roplabdas]:
     utok:List[Roplabdas]=[]
@@ -29,12 +30,29 @@ def atlagmagassag(roplabdasok:List[Roplabdas])->float:
         db +=1
     return osszes/db
 
-def atlagnalNagyobbak(roplabdasok:List[Roplabdas],atlagMagassag:float)->List[Atlagfelettiek]:
-    magasabbak:List[Atlagfelettiek]=[]
-    magasabb:Atlagfelettiek = Atlagfelettiek()
-    for roplabdas in roplabdasok:
-        if(atlagMagassag < roplabdas.magassag):
-            magasabb.nev = roplabdas.nev
-            magasabb.magassag = roplabdas.magassag
-            magasabbak.append(magasabb)
-    return magasabbak
+def atlaghozKepest(roplabdasok:List[Roplabdas],atlagMagassag:float, valaszto:str)->List:
+    if(valaszto == "nagyobb"):
+        eredmenyek:List[Atlagfelettiek]=[]
+        eredmeny:Atlagfelettiek = None
+        for roplabdas in roplabdasok:
+            eredmeny = Atlagfelettiek()
+            if(atlagMagassag < roplabdas.magassag):
+                eredmeny.nev = roplabdas.nev
+                eredmeny.magassag = roplabdas.magassag
+                eredmenyek.append(eredmeny)
+        return eredmenyek
+    else:
+        eredmenyek1:List[AtlgaAlattiak]=[]
+        eredmeny1:AtlgaAlattiak=None
+        for roplabdas in roplabdasok:
+            eredmeny1 = AtlgaAlattiak()
+            if(roplabdas.magassag < atlagMagassag):
+                eredmeny1.nev = roplabdas.nev
+                eredmeny1.magassag = roplabdas.magassag
+                eredmenyek1.append(eredmeny1)
+        return eredmenyek1
+
+def atlagAlattiKulonbseg(atlagAlattiak:List[AtlgaAlattiak], atlagmagassag:float)->List[AtlgaAlattiak]:
+    for roplabdas in atlagAlattiak:
+        roplabdas.kulonbseg = atlagmagassag-roplabdas.magassag
+    return atlagAlattiak

@@ -27,7 +27,7 @@ def fajlOlvasas()->List[Roplabdas]:
         print(f"A fájlal valami nyűg van {er.filename}")
         return []
                 
-def fajlKiiras(roplabdasok:List[Roplabdas], fajlnev:str)->None:
+def fajlKiiras(roplabdasok:List, fajlnev:str)->None:
     alapUt:str=os.path.dirname(os.path.abspath(__file__))
     alapUt += "/output/"
     teljesUt:str=os.path.join(alapUt, fajlnev)

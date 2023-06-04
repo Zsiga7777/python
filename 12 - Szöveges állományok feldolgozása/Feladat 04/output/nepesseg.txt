@@ -1,0 +1,10 @@
+Város neve:Békéscsaba, város típusa:megyeszékhely megyei jogú város, megye neve:Békés, járás:Békéscsabai, kistérség:Békéscsabai, népesség:63752 fő, területe:193.93 km2
+Város neve:Eger, város típusa:megyeszékhely megyei jogú város, megye neve:Heves, járás:Egri, kistérség:Egri, népesség:56166 fő, területe:92.21 km2
+Város neve:Érd, város típusa:megyei jogú város, megye neve:Pest, járás:Érdi, kistérség:Érdi, népesség:65277 fő, területe:60.54 km2
+Város neve:Kaposvár, város típusa:megyeszékhely megyei jogú város, megye neve:Somogy, járás:Kaposvári, kistérség:Kaposvári, népesség:67686 fő, területe:113.59 km2
+Város neve:Sopron, város típusa:megyei jogú város, megye neve:Gyor-Moson-Sopron, járás:Soproni, kistérség:Sopron-Fertodi, népesség:61390 fő, területe:169.01 km2
+Város neve:Szolnok, város típusa:megyeszékhely megyei jogú város, megye neve:Jász-Nagykun-Szolnok, járás:Szolnoki, kistérség:Szolnoki, népesség:74341 fő, területe:187.24 km2
+Város neve:Szombathely, város típusa:megyeszékhely megyei jogú város, megye neve:Vas, járás:Szombathelyi, kistérség:Szombathelyi, népesség:79348 fő, területe:97.5 km2
+Város neve:Tatabánya, város típusa:megyeszékhely megyei jogú város, megye neve:Komárom-Esztergom, járás:Tatabányai, kistérség:Tatabányai, népesség:70003 fő, területe:91.42 km2
+Város neve:Veszprém, város típusa:megyeszékhely megyei jogú város, megye neve:Veszprém, járás:Veszprémi, kistérség:Veszprémi, népesség:64024 fő, területe:126.9 km2
+Város neve:Zalaegerszeg, város típusa:megyeszékhely megyei jogú város, megye neve:Zala, járás:Zalaegerszegi, kistérség:Zalaegerszegi, népesség:61849 fő, területe:102.41 km2
