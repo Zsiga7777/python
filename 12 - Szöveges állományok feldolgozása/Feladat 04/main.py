@@ -20,6 +20,3 @@ fajlkiiras(megfeleloTeruletuVarosok,"nagyteruletek.txt" )
 # - Keressük ki Békés megye össz települését és a bekes.txt állományba mentsük el.
 megfeleloMegyebeVarosok:List[Varos]=megyeKereses(varosok, "Békés")
 fajlkiiras(megfeleloMegyebeVarosok,"bekes.txt")
-# - megyeterületek.txt állományba mentsük el a megye nevét és területének nagyságát.
-megyek:Megye=megyeTeruletSzamitas(varosok)
-fajlkiiras(megyek,"megyeterületek.txt")

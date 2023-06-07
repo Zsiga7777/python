@@ -31,26 +31,27 @@ def atlagmagassag(roplabdasok:List[Roplabdas])->float:
     return osszes/db
 
 def atlaghozKepest(roplabdasok:List[Roplabdas],atlagMagassag:float, valaszto:str)->List:
+    eredmenyek:List[Atlagfelettiek]=[]
+    eredmeny:Atlagfelettiek = None
+    
     if(valaszto == "nagyobb"):
-        eredmenyek:List[Atlagfelettiek]=[]
-        eredmeny:Atlagfelettiek = None
         for roplabdas in roplabdasok:
-            eredmeny = Atlagfelettiek()
             if(atlagMagassag < roplabdas.magassag):
+                eredmeny = Atlagfelettiek()
                 eredmeny.nev = roplabdas.nev
                 eredmeny.magassag = roplabdas.magassag
                 eredmenyek.append(eredmeny)
+        
         return eredmenyek
     else:
-        eredmenyek1:List[AtlgaAlattiak]=[]
-        eredmeny1:AtlgaAlattiak=None
-        for roplabdas in roplabdasok:
-            eredmeny1 = AtlgaAlattiak()
+        for roplabdas in roplabdasok:     
             if(roplabdas.magassag < atlagMagassag):
-                eredmeny1.nev = roplabdas.nev
-                eredmeny1.magassag = roplabdas.magassag
-                eredmenyek1.append(eredmeny1)
-        return eredmenyek1
+                eredmeny = AtlgaAlattiak()
+                eredmeny.nev = roplabdas.nev
+                eredmeny.magassag = roplabdas.magassag
+                eredmenyek.append(eredmeny)
+        
+        return eredmenyek
 
 def atlagAlattiKulonbseg(atlagAlattiak:List[AtlgaAlattiak], atlagmagassag:float)->List[AtlgaAlattiak]:
     for roplabdas in atlagAlattiak:

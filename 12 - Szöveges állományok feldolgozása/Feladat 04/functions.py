@@ -29,12 +29,3 @@ def megyeKereses(varosok:List[Varos], megye:str)->List[Varos]:
         if(varos.megyeNeve == megye):
             megfeleloVarosok.append(varos)
     return megfeleloVarosok
-
-def megyeTeruletSzamitas(varosok:List[Varos])->List[Megye]:
-    megye:Megye=Megye()
-    megyek=set()
-    for varos in varosok:
-        megye.nev=varos.megyeNeve
-        megye.terulet=varos.terulet
-        megyek.update(megye)
-    return megyek

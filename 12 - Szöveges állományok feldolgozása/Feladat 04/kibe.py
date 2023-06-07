@@ -22,8 +22,8 @@ def fajlBeolvasas()->List[Varos]:
                 varos.megyeNeve=egyseg[2]
                 varos.jaras=egyseg[3]
                 varos.kisterseg=egyseg[4]
-                varos.nepesseg=egyseg[5]
-                varos.terulet=egyseg[6]
+                varos.nepesseg=int(egyseg[5])
+                varos.terulet=float(egyseg[6])
                 varosok.append(varos)
             return varosok
     except FileNotFoundError as er:
